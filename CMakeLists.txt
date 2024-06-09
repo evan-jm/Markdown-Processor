@@ -8,10 +8,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(SOURCES
   src/main.cpp
   src/Note.cpp
+  src/NoteManager.cpp
 )
 
 set(HEADERS
   headers/Note.h
+  headers/NoteManager.h
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
